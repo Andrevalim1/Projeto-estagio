@@ -1,0 +1,35 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto';
+}
+
+a {
+	text-decoration: none;
+	color: black;
+
+}
+
+#box ul {
+	display: flex;
+	list-style: none;
+	gap: 2.5rem	;
+	padding: 1rem 2.5rem;
+	justify-content: center;
+}
+
+#box ul li a {
+	transition: .2s;
+}
+
+#box ul li a:hover {
+	text-decoration: underline;
+}
+
+.beneficios {
+	display: grid;
+	grid-template-columns: repeat(4, 300px);
+	justify-content: center;
+	gap: 1.75rem;
+}
